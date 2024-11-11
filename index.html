@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/imagens/logo.png" alt="Logo">
+        </div>
+
+        <nav class="links">
+            <ul>
+                <a href="#">
+                    <li>Início</li>
+                    <li>Especialidades</li>
+                    <li>Projetos</li>
+                    <li>Sobre</li>
+                </a>
+            </ul>
+        </nav>
+
+        <div class="contato">
+            <button>
+                <a href="#">Contato</a>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="main-text">
+
+            <h1>transformando ideias em realidade digital</h1>
+            <p>Criatividade e inovação andam lado a lado. Com uma combinação única de desing impactante, funcionalidade
+                intuitiva
+                e otimização para resultados, estou pronto para criar a presença online dos seus sonhos.
+            </p>
+            <button class="work_together">
+                <a href="#">Vamos trabalhar juntos?</a>
+            </button>
+
+        </section>
+
+        <div class="person">
+            <img src="/imagens/pessoa.png" alt="Pessoa sorrindo">
+        </div>
+    </main>
+
+    
+    <h2 class="h2_specialties">Minhas</h2>
+    
+    <section class="section_specialties">
+        <div class="div_specialties">
+            <i class="bi bi-code-square"></i>
+            <h3>Website</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, iure.</p>
+        </div>
+
+        <div class="div_specialties">
+            <i class="bi bi-cart"></i>
+            <h3>Loja online</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, laboriosam.</p>
+        </div>
+
+        <div class="div_specialties">
+            <i class="bi bi-file-earmark-bar-graph"></i>
+            <h3>Landing page</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, nobis.</p>
+        </div>
+    </section>
+
+    <section class="description_perfil">
+
+        <div>
+            <img src="/imagens/foto.png" alt="Foto de perfil">
+        </div>
+
+        <div class="text_perfil">
+            <h3>Muito prazer,<br></h3>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nihil soluta, commodi, obcaecati
+                suscipit cupiditate ut perferendis
+                placeat aspernatur dolore ipsum harum cumque minima. Officia, iure harum? Ducimus, sint quaerat.</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo veritatis accusantium ipsa voluptatem
+                beatae ad?</p>
+
+            <div class="icons_perfil">
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="principal_portfolio">
+
+        <div class="text_portfolio">
+            <h2>meu <span>portfólio.</span></h2>
+            <p>Esses são alguns dos meus principais projetos.</p>
+        </div>
+
+        <section class="container_cards">
+
+            <div class="card">
+                <div class="overlay">Projeto 1</div>
+            </div>
+            <div class="card">
+                <div class="overlay">Projeto 2</div>
+            </div>
+            <div class="card">
+                <div class="overlay">Projeto 3</div>
+            </div>
+
+        </section>
+
+    </section>
+
+    <section class="form">
+
+        <div class="form_text">
+            <h2>Fala</h2>
+            <p>Vamos tirar suas ideias do papel.</p>
+        </div>
+
+        <form action="#" method="post">
+
+            <div class="container_inputs">
+                <input type="text" id="name" name="name" placeholder="Seu nome:" required>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail:" required>
+                <input type="tel" name="phonenumber" id="phonenumber" placeholder="Seu celular: Ex: 5511912345678" required minlength="15" maxlength="15" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                <textarea name="message" id="message" maxlength="300" placeholder="Sua mensagem:"></textarea>
+                <input class="input_submit" type="submit" value="ENVIAR">
+
+            </div>
+        </form>
+
+
+    </section>
+
+    <footer>
+
+        <div class="img_footer">
+            <img src="imagens/logo.png" alt="Logo">
+            <div>
+                <i id="icons_footer" class="bi bi-youtube"></i>
+                <i id="icons_footer" class="bi bi-instagram"></i>
+                <i id="icons_footer" class="bi bi-linkedin"></i>
+            </div> 
+        </div>
+        <hr>
+        <p><i id="icons_footer" class="bi bi-envelope"></i>contato@bruno.com.br</p>
+
+    </footer>
+
+
+</body>
+
+
+
+
+
+
+</html>
